@@ -7,6 +7,10 @@ declare (ticks        = 1);
 set_include_path(
 	  get_include_path()
 	. PATH_SEPARATOR
+	.'..'
+	. PATH_SEPARATOR
+	.'source'
+	. PATH_SEPARATOR
 	.'scl'
 );
 
