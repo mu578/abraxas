@@ -14,7 +14,7 @@ insert_final_newline = false
 indent_style         = tab
 indent_size          = 3
 
-[*.{h, c, cpp, cc, hpp, json, txt, md, mk, csv, m, mm, java, py, sh, pyx, pxd}]
+[*.{h, c, cpp, cc, hpp, json, txt, md, mk, csv, m, mm, java, php, py, sh, pyx, pxd}]
 charset              = utf-8
 end_of_line          = lf
 insert_final_newline = false
