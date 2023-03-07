@@ -858,9 +858,9 @@ namespace std
 			}
 			while (true) {
 				$it1 = clone $it0;
-				if ($p($it0->_F_prev()->_F_this(), $it1->_F_this())) {
+				if (($it0->_F_prev()->_F_this() < $it1->_F_this())) {
 					$it2 = clone $last___;
-					while (!$p($it0->_F_this(), $it2->_F_prev()->_F_this())) { /* NOP */ }
+					while (!($it0->_F_this() < $it2->_F_prev()->_F_this())) { /* NOP */ }
 					iter_swap($it0, $it2);
 					reverse($it1, $last___);
 					return true;

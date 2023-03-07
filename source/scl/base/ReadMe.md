@@ -37,14 +37,14 @@ Extended functionalities:
 /* IEEE Std 1003.1-2001 like complex number arithmetic. */
 ```
 
-@see [Complex](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_complex.php?ts=3)<br>
+@see [Complex](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_complex.php?ts=3)<br>
 <sub><sup>std\creal, std\cimag, std\cabs, std\cnorm, std\carg, std\cexp, std\clog, std\clog10, std\cpow, std\csqrt, std\cconj, std\cproj, std\cpolar, std\cinv, std\cneg, std\cadd, std\csub, std\cmul, std\cdiv, std\cfadd, std\cfsub, std\cfmul, std\cfdiv, std\cfsqrt, std\csec, std\csech, std\ccsc, std\ccsch, std\ccot, std\ccoth, std\cacot, std\cacoth, std\ccos, std\csin, std\ctan, std\ccosh, std\csinh, std\ctanh, std\cacos, std\casin, std\catan, std\cacosh, std\casinh, std\catanh</sub></sup>
 
 ```php
 /* Extended mathematical, trigonometric templates with complex support. */
 ```
 
-@see [Math](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_math.php?ts=3) | [Mathdefs](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_mathdefs.php?ts=3)<br>
+@see [Math](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_math.php?ts=3) | [Mathdefs](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_mathdefs.php?ts=3)<br>
 <sub><sup>std\setsigngam, std\signgam, std\fesetround, std\fpclassify, std\isnan, std\isnormal, std\isfinite, std\isinf, std\copysign, std\isgreater, std\isgreaterequal, std\isless, std\islessequal, std\islessgreater, std\isunordered, std\signbit, std\fabs, std\fmod, std\modf, std\fmax, std\fmin, std\fdim, std\fma, std\fdeg2rad, std\frad2deg, std\fsec, std\fcsc, std\fcot, std\fsech, std\fcsch, std\fcoth, std\facsc, std\fasec, std\facot, std\fasech, std\facsch, std\facoth, std\trunc, std\nearbyint, std\remainder, std\hypot, std\fact, std\abs, std\real, std\imag, std\arg, std\sec, std\csc, std\cot, std\sech, std\csch, std\coth, std\norm, std\conj, std\proj, std\polar, std\topolar, std\exp, std\exp2, std\expm1, std\pow, std\log, std\log2, std\log10, std\log1p, std\sqrt, std\cos, std\cosh, std\sin, std\sinh, std\tan, std\tanh, std\acos, std\acosh, std\asin, std\asinh, std\atan2, std\atan, std\atanh, std\cbrt, std\ftrt, std\nthrt, std\ceil, std\floor, std\round, std\lrint, std\logb, std\ilogb, std\lgamma_s, std\lgamma_r, std\lgamma, std\tgamma, std\beta, std\frexp, std\ldexp, std\erf, std\erfc, std\sincos</sub></sup>
 
 #### | Caveats
@@ -446,76 +446,76 @@ PHP7 built with:
 # Files
 
 ### Base API
-[scl_api_algorithm](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_algorithm.php?ts=3)<br>
-[scl_api_baselib](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_baselib.php?ts=3)<br>
-[scl_api_complex](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_complex.php?ts=3)<br>
-[scl_api_container_traits](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_container_traits.php?ts=3)<br>
-[scl_api_endian](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_endian.php?ts=3)<br>
-[scl_api_errno](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_errno.php?ts=3)<br>
-[scl_api_exception](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_exception.php?ts=3)<br>
-[scl_api_io](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_io.php?ts=3)<br>
-[scl_api_iterator_traits](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_iterator_traits.php?ts=3)<br>
-[scl_api_locale](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_locale.php?ts=3)<br>
-[scl_api_math](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_math.php?ts=3)<br>
-[scl_api_mathdefs](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_mathdefs.php?ts=3)<br>
-[scl_api_numeric](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_numeric.php?ts=3)<br>
-[scl_api_operator_traits](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_operator_traits.php?ts=3)<br>
-[scl_api_ostype](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_ostype.php?ts=3)<br>
-[scl_api_random](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_random.php?ts=3)<br>
-[scl_api_signal](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_signal.php?ts=3)<br>
-[scl_api_string](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_string.php?ts=3)<br>
-[scl_api_time](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_time.php?ts=3)<br>
-[scl_api_timezone](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_timezone.php?ts=3)<br>
-[scl_api_unilib](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_unilib.php?ts=3)<br>
-[scl_api_utility_traits](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_utility_traits.php?ts=3)<br>
-[scl_api_utsname](https://github.com/mu578/abraxas/blob/master/scl/base/scl_api_utsname.php?ts=3)<br>
+[scl_api_algorithm](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_algorithm.php?ts=3)<br>
+[scl_api_baselib](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_baselib.php?ts=3)<br>
+[scl_api_complex](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_complex.php?ts=3)<br>
+[scl_api_container_traits](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_container_traits.php?ts=3)<br>
+[scl_api_endian](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_endian.php?ts=3)<br>
+[scl_api_errno](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_errno.php?ts=3)<br>
+[scl_api_exception](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_exception.php?ts=3)<br>
+[scl_api_io](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_io.php?ts=3)<br>
+[scl_api_iterator_traits](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_iterator_traits.php?ts=3)<br>
+[scl_api_locale](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_locale.php?ts=3)<br>
+[scl_api_math](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_math.php?ts=3)<br>
+[scl_api_mathdefs](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_mathdefs.php?ts=3)<br>
+[scl_api_numeric](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_numeric.php?ts=3)<br>
+[scl_api_operator_traits](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_operator_traits.php?ts=3)<br>
+[scl_api_ostype](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_ostype.php?ts=3)<br>
+[scl_api_random](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_random.php?ts=3)<br>
+[scl_api_signal](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_signal.php?ts=3)<br>
+[scl_api_string](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_string.php?ts=3)<br>
+[scl_api_time](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_time.php?ts=3)<br>
+[scl_api_timezone](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_timezone.php?ts=3)<br>
+[scl_api_unilib](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_unilib.php?ts=3)<br>
+[scl_api_utility_traits](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_utility_traits.php?ts=3)<br>
+[scl_api_utsname](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_api_utsname.php?ts=3)<br>
 
 ### Basic implementation
-[scl_basic_dict](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_dict.php?ts=3)<br>
-[scl_basic_exception](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_exception.php?ts=3)<br>
-[scl_basic_forward_list](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_forward_list.php?ts=3)<br>
-[scl_basic_ios](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_ios.php?ts=3)<br>
-[scl_basic_irange](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_irange.php?ts=3)<br>
-[scl_basic_iterable](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_iterable.php?ts=3)<br>
-[scl_basic_iterator](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_iterator.php?ts=3)<br>
-[scl_basic_ordered_list](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_ordered_list.php?ts=3)<br>
-[scl_basic_ordered_map](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_ordered_map.php?ts=3)<br>
-[scl_basic_ordered_set](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_ordered_set.php?ts=3)<br>
-[scl_basic_ratio](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_ratio.php?ts=3)<br>
-[scl_basic_tuple](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_tuple.php?ts=3)<br>
-[scl_basic_u8string](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_u8string.php?ts=3)<br>
-[scl_basic_utility](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_utility.php?ts=3)<br>
-[scl_basic_vector](https://github.com/mu578/abraxas/blob/master/scl/base/scl_basic_vector.php?ts=3)<br>
+[scl_basic_dict](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_dict.php?ts=3)<br>
+[scl_basic_exception](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_exception.php?ts=3)<br>
+[scl_basic_forward_list](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_forward_list.php?ts=3)<br>
+[scl_basic_ios](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_ios.php?ts=3)<br>
+[scl_basic_irange](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_irange.php?ts=3)<br>
+[scl_basic_iterable](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_iterable.php?ts=3)<br>
+[scl_basic_iterator](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_iterator.php?ts=3)<br>
+[scl_basic_ordered_list](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_ordered_list.php?ts=3)<br>
+[scl_basic_ordered_map](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_ordered_map.php?ts=3)<br>
+[scl_basic_ordered_set](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_ordered_set.php?ts=3)<br>
+[scl_basic_ratio](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_ratio.php?ts=3)<br>
+[scl_basic_tuple](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_tuple.php?ts=3)<br>
+[scl_basic_u8string](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_u8string.php?ts=3)<br>
+[scl_basic_utility](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_utility.php?ts=3)<br>
+[scl_basic_vector](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_basic_vector.php?ts=3)<br>
 
 ### Implementation
-[scl_algorithm](https://github.com/mu578/abraxas/blob/master/scl/base/scl_algorithm.php?ts=3)<br>
-[scl_any](https://github.com/mu578/abraxas/blob/master/scl/base/scl_any.php?ts=3)<br>
-[scl_collation](https://github.com/mu578/abraxas/blob/master/scl/base/scl_collation.php?ts=3)<br>
-[scl_collator](https://github.com/mu578/abraxas/blob/master/scl/base/scl_collator.php?ts=3)<br>
-[scl_complex](https://github.com/mu578/abraxas/blob/master/scl/base/scl_complex.php?ts=3)<br>
-[scl_dict](https://github.com/mu578/abraxas/blob/master/scl/base/scl_dict.php?ts=3)<br>
-[scl_forward_list](https://github.com/mu578/abraxas/blob/master/scl/base/scl_forward_list.php?ts=3)<br>
-[scl_functional](https://github.com/mu578/abraxas/blob/master/scl/base/scl_functional.php?ts=3)<br>
-[scl_iostream](https://github.com/mu578/abraxas/blob/master/scl/base/scl_iostream.php?ts=3)<br>
-[scl_irange](https://github.com/mu578/abraxas/blob/master/scl/base/scl_irange.php?ts=3)<br>
-[scl_istream](https://github.com/mu578/abraxas/blob/master/scl/base/scl_istream.php?ts=3)<br>
-[scl_iterator](https://github.com/mu578/abraxas/blob/master/scl/base/scl_iterator.php?ts=3)<br>
-[scl_locale](https://github.com/mu578/abraxas/blob/master/scl/base/scl_locale.php?ts=3)<br>
-[scl_numeric_limits](https://github.com/mu578/abraxas/blob/master/scl/base/scl_numeric_limits.php?ts=3)<br>
-[scl_numeric](https://github.com/mu578/abraxas/blob/master/scl/base/scl_numeric.php?ts=3)<br>
-[scl_ordered_list](https://github.com/mu578/abraxas/blob/master/scl/base/scl_ordered_list.php?ts=3)<br>
-[scl_ordered_set](https://github.com/mu578/abraxas/blob/master/scl/base/scl_ordered_set.php?ts=3)<br>
-[scl_ostream](https://github.com/mu578/abraxas/blob/master/scl/base/scl_ostream.php?ts=3)<br>
-[scl_pair](https://github.com/mu578/abraxas/blob/master/scl/base/scl_pair.php?ts=3)<br>
-[scl_quad](https://github.com/mu578/abraxas/blob/master/scl/base/scl_quad.php?ts=3)<br>
-[scl_quint](https://github.com/mu578/abraxas/blob/master/scl/base/scl_quint.php?ts=3)<br>
-[scl_random](https://github.com/mu578/abraxas/blob/master/scl/base/scl_random.php?ts=3)<br>
-[scl_ratio](https://github.com/mu578/abraxas/blob/master/scl/base/scl_ratio.php?ts=3)<br>
-[scl_system_error](https://github.com/mu578/abraxas/blob/master/scl/base/scl_system_error.php?ts=3)<br>
-[scl_triad](https://github.com/mu578/abraxas/blob/master/scl/base/scl_triad.php?ts=3)<br>
-[scl_tuple](https://github.com/mu578/abraxas/blob/master/scl/base/scl_tuple.php?ts=3)<br>
-[scl_type_traits](https://github.com/mu578/abraxas/blob/master/scl/base/scl_type_traits.php?ts=3)<br>
-[scl_u8string](https://github.com/mu578/abraxas/blob/master/scl/base/scl_u8string.php?ts=3)<br>
-[scl_vector](https://github.com/mu578/abraxas/blob/master/scl/base/scl_vector.php?ts=3)<br>
+[scl_algorithm](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_algorithm.php?ts=3)<br>
+[scl_any](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_any.php?ts=3)<br>
+[scl_collation](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_collation.php?ts=3)<br>
+[scl_collator](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_collator.php?ts=3)<br>
+[scl_complex](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_complex.php?ts=3)<br>
+[scl_dict](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_dict.php?ts=3)<br>
+[scl_forward_list](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_forward_list.php?ts=3)<br>
+[scl_functional](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_functional.php?ts=3)<br>
+[scl_iostream](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_iostream.php?ts=3)<br>
+[scl_irange](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_irange.php?ts=3)<br>
+[scl_istream](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_istream.php?ts=3)<br>
+[scl_iterator](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_iterator.php?ts=3)<br>
+[scl_locale](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_locale.php?ts=3)<br>
+[scl_numeric_limits](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_numeric_limits.php?ts=3)<br>
+[scl_numeric](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_numeric.php?ts=3)<br>
+[scl_ordered_list](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_ordered_list.php?ts=3)<br>
+[scl_ordered_set](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_ordered_set.php?ts=3)<br>
+[scl_ostream](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_ostream.php?ts=3)<br>
+[scl_pair](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_pair.php?ts=3)<br>
+[scl_quad](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_quad.php?ts=3)<br>
+[scl_quint](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_quint.php?ts=3)<br>
+[scl_random](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_random.php?ts=3)<br>
+[scl_ratio](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_ratio.php?ts=3)<br>
+[scl_system_error](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_system_error.php?ts=3)<br>
+[scl_triad](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_triad.php?ts=3)<br>
+[scl_tuple](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_tuple.php?ts=3)<br>
+[scl_type_traits](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_type_traits.php?ts=3)<br>
+[scl_u8string](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_u8string.php?ts=3)<br>
+[scl_vector](https://github.com/mu578/abraxas/blob/master/source/scl/base/scl_vector.php?ts=3)<br>
 
 # EOF
